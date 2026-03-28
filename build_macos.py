@@ -71,8 +71,6 @@ def build_arch(arch):
         str(dist_path),
         "--workpath",
         str(work_path),
-        "--target-arch",
-        arch,
         "macos_build.spec",
     ])
 

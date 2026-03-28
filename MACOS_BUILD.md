@@ -44,9 +44,9 @@ dist_macos/
 
 ## GitHub Actions
 
-仓库工作流会分别在：
+仓库工作流会分别在原生 runner 上构建：
 
 - `macos-14` 上构建 `arm64`
-- `macos-13` 上构建 `x86_64`
+- `macos-15-intel` 上构建 `x86_64`
 
 运行完成后会上传两个 zip 构建产物。
