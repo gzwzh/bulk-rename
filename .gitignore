@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+.linux-build-venv/
+
+# Build artifacts
+build/
+dist/
+dist_linux/
+dist_macos/
+release/
+*.spec.bak
+*.zip
+*.exe
+*.dmg
+*.pkg
+*.app
+build_assets/app.iconset/
+build_assets/app_icon.icns
+bulk-rename/
+package_v1.0.0/
+package_v1.0.1_update/
+批量重命名_v1.0.0/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
